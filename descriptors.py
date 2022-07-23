@@ -35,6 +35,6 @@ class Point3D:
         self.z = z
 
 
-p = Point3D(1, 12, 6)
-p.__dict__['xr'] = 5
+p = Point3D(45, 11, 36)
+p.__dict__['xr'] = 8
 print(p.xr, p.__dict__)
